@@ -1,5 +1,17 @@
-.idea
-.vs
+# Игнорировать папки сборки и временные файлы .NET
+bin/
+obj/
 Info.txt
 ParsingProjectSolution.sln.DotSettings.user
 ParsingProjectSolution.sln
+
+# Игнорировать файлы Rider IDE
+*.sln.iml
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+*.log
+*.vs/
